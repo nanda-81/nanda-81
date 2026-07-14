@@ -27,7 +27,7 @@ I build full-stack products and practical AI systems—turning a problem into a 
 <!-- PROFILE:GENERATED:START -->
 ## Live profile signal
 
-**—** public repositories · **—** stars · **—** forks
+**13** public repositories · **3** stars · **0** forks
 
 **Focus:** Building practical full-stack products and learning how to contribute well to open source.
 
