@@ -1,0 +1,23 @@
+name: Generate contribution graph
+
+on:
+  schedule:
+    - cron: "23 2 * * *"
+  workflow_dispatch:
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: Platane/snk@v3
+        with:
+          github_user_name: nanda-81
+          outputs: |
+            output/github-contribution-grid-snake.svg?palette=github-dark
+            output/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=#c084fc
+      - uses: EndBug/add-and-commit@v9
+        with:
+          message: "chore: refresh contribution graph"
+          add: "output"

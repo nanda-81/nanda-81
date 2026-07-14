@@ -7,14 +7,14 @@ export const END = "<!-- PROFILE:GENERATED:END -->";
 
 export async function loadProfileData(filePath) {
   const data = JSON.parse(await fs.readFile(filePath, "utf8"));
-  const required = ["username", "currentFocus", "learningGoal", "featuredRepositories", "excludedRepositories", "links"];
+  const required = ["username", "currentFocus", "featuredRepositories", "excludedRepositories", "links"];
   for (const key of required) {
     if (!(key in data)) throw new Error(`Missing profile field: ${key}`);
   }
   const excluded = new Set(data.excludedRepositories.map((name) => name.toLowerCase()));
   const forbidden = data.featuredRepositories.find((name) => excluded.has(name.toLowerCase()));
   if (forbidden) throw new Error(`Excluded repository cannot be featured: ${forbidden}`);
-  if (data.featuredRepositories.length !== 5) throw new Error("Exactly five featured repositories are required");
+  if (data.featuredRepositories.length !== 4) throw new Error("Exactly four featured repositories are required");
   return data;
 }
 
@@ -42,8 +42,7 @@ export function renderGeneratedSection(summary, profileData) {
     "",
     `**${summary.publicRepositories}** public repositories · **${summary.stars}** stars · **${summary.forks}** forks`,
     "",
-    `**Now building:** ${profileData.currentFocus}`,
-    `**Now learning:** ${profileData.learningGoal}`,
+    `**Focus:** ${profileData.currentFocus}`,
     "",
     `<sub>Public GitHub snapshot refreshed ${date}. Activity metrics are evidence, not the identity.</sub>`,
     END

@@ -5,10 +5,10 @@ import fs from "node:fs/promises";
 import os from "node:os";
 import path from "node:path";
 
-test("validates the five-project profile contract", async () => {
+test("validates the four-project profile contract", async () => {
   const dir = await fs.mkdtemp(path.join(os.tmpdir(), "profile-test-"));
   const file = path.join(dir, "profile-data.json");
-  await fs.writeFile(file, JSON.stringify({ username: "nanda-81", currentFocus: "x", learningGoal: "y", featuredRepositories: ["a", "b", "c", "d", "e"], excludedRepositories: ["Cotiviti_Assessment"], links: {} }));
+  await fs.writeFile(file, JSON.stringify({ username: "nanda-81", currentFocus: "x", featuredRepositories: ["a", "b", "c", "d"], excludedRepositories: ["Cotiviti_Assessment"], links: {} }));
   const data = await loadProfileData(file);
   assert.equal(data.username, "nanda-81");
 });
@@ -16,7 +16,7 @@ test("validates the five-project profile contract", async () => {
 test("rejects an excluded project in the featured list", async () => {
   const dir = await fs.mkdtemp(path.join(os.tmpdir(), "profile-test-"));
   const file = path.join(dir, "profile-data.json");
-  await fs.writeFile(file, JSON.stringify({ username: "nanda-81", currentFocus: "x", learningGoal: "y", featuredRepositories: ["a", "b", "c", "d", "Cotiviti_Assessment"], excludedRepositories: ["Cotiviti_Assessment"], links: {} }));
+  await fs.writeFile(file, JSON.stringify({ username: "nanda-81", currentFocus: "x", featuredRepositories: ["a", "b", "c", "Cotiviti_Assessment"], excludedRepositories: ["Cotiviti_Assessment"], links: {} }));
   await assert.rejects(loadProfileData(file), /Excluded repository/);
 });
 
@@ -32,9 +32,9 @@ test("rejects missing or duplicate markers", () => {
 });
 
 test("renders a maintainer-friendly live signal", () => {
-  const output = renderGeneratedSection({ publicRepositories: 12, stars: 8, forks: 1, updatedAt: "2026-07-14T00:00:00.000Z" }, { currentFocus: "full-stack products", learningGoal: "first contribution" });
+  const output = renderGeneratedSection({ publicRepositories: 12, stars: 8, forks: 1, updatedAt: "2026-07-14T00:00:00.000Z" }, { currentFocus: "full-stack products" });
   assert.match(output, /12/);
-  assert.match(output, /first contribution/);
+  assert.match(output, /full-stack products/);
   assert.match(output, new RegExp(START));
   assert.match(output, new RegExp(END));
 });

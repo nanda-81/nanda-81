@@ -1,13 +1,11 @@
 {
   "username": "nanda-81",
   "currentFocus": "Building practical full-stack products and learning how to contribute well to open source.",
-  "learningGoal": "Make a first focused documentation or bug-fix contribution with tests and a clear pull request.",
   "featuredRepositories": [
     "JobSearchingAgent",
     "MindCare-ChatBot",
     "CALAMITI",
-    "Huffman-Coding",
-    "Farm-AI"
+    "Huffman-Coding"
   ],
   "excludedRepositories": ["Cotiviti_Assessment"],
   "links": {

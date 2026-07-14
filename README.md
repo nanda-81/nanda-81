@@ -4,26 +4,23 @@
 
 <br />
 
-<a href="https://github.com/nanda-81/JobSearchingAgent"><img src="https://img.shields.io/badge/BUILDING-FULL--STACK-5eead4?style=for-the-badge&labelColor=070b16" alt="Building full-stack" /></a>
-<a href="https://github.com/nanda-81/CALAMITI"><img src="https://img.shields.io/badge/EXPLORING-APPLIED_AI-c084fc?style=for-the-badge&labelColor=070b16" alt="Exploring applied AI" /></a>
-<a href="https://github.com/nanda-81"><img src="https://img.shields.io/badge/OPEN_SOURCE-LEARNING-7dd3fc?style=for-the-badge&labelColor=070b16" alt="Open source learning" /></a>
+<a href="https://drive.google.com/file/d/1NOhUnDU6nXKKKYi1tIuC5PIz3EicXFl5/view"><img src="https://img.shields.io/badge/RESUME-OPEN-5eead4?style=for-the-badge&labelColor=0b1220" alt="Open resume" /></a>
+<a href="https://www.linkedin.com/in/nanda-k-1b736a270/"><img src="https://img.shields.io/badge/LINKEDIN-CONNECT-7dd3fc?style=for-the-badge&labelColor=0b1220" alt="Connect on LinkedIn" /></a>
+<a href="mailto:nellutlanandakishore@gmail.com"><img src="https://img.shields.io/badge/EMAIL-SAY_HELLO-c084fc?style=for-the-badge&labelColor=0b1220" alt="Send email" /></a>
 
-### Nanda Kishore · software engineer in progress
+### Nanda Kishore · software engineer
 
-I build useful software end to end: interfaces, APIs, data flows, and experiments that turn a problem into something people can try. I’m looking for SDE opportunities and beginner-friendly open-source collaboration.
+I build full-stack products and practical AI systems—turning a problem into a usable interface, a working backend, and an explanation another engineer can follow.
 
-<a href="https://drive.google.com/file/d/1NOhUnDU6nXKKKYi1tIuC5PIz3EicXFl5/view">RESUME</a> ·
-<a href="https://www.linkedin.com/in/nanda-k-1b736a270/">LINKEDIN</a> ·
-<a href="mailto:nellutlanandakishore@gmail.com">EMAIL</a> ·
-<a href="https://github.com/nanda-81?tab=repositories">ALL REPOSITORIES</a>
+**SDE opportunities · full-stack engineering · applied AI · open-source collaboration**
 
 </div>
 
 <table>
 <tr>
-<td width="33%"><b>⚡ CURRENTLY BUILDING</b><br/><br/>Product-shaped full-stack projects with APIs, dashboards, and clearer documentation.</td>
-<td width="33%"><b>🧠 CURRENTLY LEARNING</b><br/><br/>Testing, system thinking, Git workflows, and how to make a useful first open-source contribution.</td>
-<td width="33%"><b>🛰️ CURRENTLY SEEKING</b><br/><br/>SDE opportunities, thoughtful feedback, and beginner-friendly repositories to contribute to.</td>
+<td width="34%"><b>FOCUS</b><br/><br/>Shipping clearer product flows, APIs, data pipelines, and experiments.</td>
+<td width="33%"><b>ENGINEERING STYLE</b><br/><br/>Small systems, explicit trade-offs, readable docs, measurable improvements.</td>
+<td width="33%"><b>OPEN SOURCE</b><br/><br/>Ready for focused documentation, testing, and beginner-friendly fixes.</td>
 </tr>
 </table>
 
@@ -32,80 +29,98 @@ I build useful software end to end: interfaces, APIs, data flows, and experiment
 
 **—** public repositories · **—** stars · **—** forks
 
-**Now building:** Building practical full-stack products and learning how to contribute well to open source.
-**Now learning:** Make a first focused documentation or bug-fix contribution with tests and a clear pull request.
+**Focus:** Building practical full-stack products and learning how to contribute well to open source.
 
 <sub>Public GitHub snapshot refreshed 2026-07-14. Activity metrics are evidence, not the identity.</sub>
 <!-- PROFILE:GENERATED:END -->
 
-## `01` / FEATURED BUILDS
+## `01` / SELECTED WORK
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-### ◒ PJSAP
+<img src="./assets/icon-pjsap.svg" width="38" alt="PJSAP icon" />
+
+### PJSAP
 **Job Search Automation Platform**
 
-**Problem** · Job discovery is fragmented and noisy.  
-**Build** · Crawling, matching, APIs, and a dashboard flow.  
-**Signal** · Full-stack product thinking and information retrieval.
+Job discovery is fragmented and noisy. PJSAP explores crawling, matching, APIs, and a dashboard flow that turns scattered listings into a more useful search experience.
 
 `Python` `FastAPI` `React` `TypeScript` `Docker`
 
-<a href="https://github.com/nanda-81/JobSearchingAgent">VIEW REPOSITORY →</a>
+<a href="https://github.com/nanda-81/JobSearchingAgent">↗ VIEW PROJECT</a>
 
 </td>
 <td width="50%" valign="top">
 
-### ◉ MINDCARE
+<img src="./assets/icon-mindcare.svg" width="38" alt="MindCare icon" />
+
+### MINDCARE
 **Conversational AI experiment**
 
-**Problem** · Make supportive interactions feel more human and accessible.  
-**Build** · React interface, Node services, Dialogflow, and Gemini integration.  
-**Signal** · AI product boundaries and responsible UX thinking.
+An AI-assisted conversational experience exploring interface design, API boundaries, sentiment-aware interactions, and responsible product framing.
 
 `React` `Node.js` `Dialogflow` `Gemini`
 
-<a href="https://github.com/nanda-81/MindCare-ChatBot">VIEW REPOSITORY →</a>
+<a href="https://github.com/nanda-81/MindCare-ChatBot">↗ VIEW PROJECT</a>
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-### ◌ CALAMITI
+<img src="./assets/icon-calamiti.svg" width="38" alt="CALAMITI icon" />
+
+### CALAMITI
 **MRI image harmonization research build**
 
 An applied deep-learning exploration of image harmonization, reproducible notebooks, visual outputs, and the relationship between model results and data quality.
 
 `Python` `PyTorch` `Jupyter` `Colab`
 
-<a href="https://github.com/nanda-81/CALAMITI">VIEW REPOSITORY →</a>
+<a href="https://github.com/nanda-81/CALAMITI">↗ VIEW PROJECT</a>
 
 </td>
 <td width="50%" valign="top">
 
-### ⌘ HUFFMAN-CODING
+<img src="./assets/icon-huffman.svg" width="38" alt="Huffman Coding icon" />
+
+### HUFFMAN CODING
 **Compression from first principles**
 
 Frequency analysis → tree construction → binary encoding → decompression. A compact algorithms project with a clear input/output story.
 
 `C++` `Algorithms` `File I/O`
 
-<a href="https://github.com/nanda-81/Huffman-Coding">VIEW REPOSITORY →</a>
+<a href="https://github.com/nanda-81/Huffman-Coding">↗ VIEW PROJECT</a>
 
 </td>
 </tr>
 </table>
 
-### `05` / FARM-AI
+## `02` / GITHUB CONTROL ROOM
 
-An ML-backed agricultural management concept exploring crop recommendation, yield prediction, crop information, and Hindi/English access.
+<div align="center">
 
-`React` `Flask` `Firebase` `TensorFlow` `scikit-learn` · <a href="https://github.com/nanda-81/Farm-AI">VIEW REPOSITORY →</a>
+<img src="https://github-readme-stats.vercel.app/api?username=nanda-81&show_icons=true&hide_border=true&include_all_commits=true&theme=tokyonight&bg_color=0b1220&title_color=5eead4&icon_color=c084fc&text_color=cbd5e1" alt="Nanda's GitHub statistics" height="170" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=nanda-81&layout=compact&hide_border=true&theme=tokyonight&bg_color=0b1220&title_color=7dd3fc&text_color=cbd5e1" alt="Nanda's most used languages" height="170" />
 
-## `02` / ENGINEERING LOADOUT
+<br />
+
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=nanda-81&hide_border=true&theme=tokyonight&background=0b1220&ring=5eead4&fire=c084fc&currStreakLabel=7dd3fc" alt="Nanda's contribution streak" />
+
+<br />
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/nanda-81/nanda-81/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/nanda-81/nanda-81/output/github-contribution-grid-snake.svg" />
+  <img src="https://raw.githubusercontent.com/nanda-81/nanda-81/output/github-contribution-grid-snake.svg" alt="Animated contribution graph" width="100%" />
+</picture>
+
+</div>
+
+## `03` / ENGINEERING STACK
 
 ```text
 PRODUCT       React · TypeScript · JavaScript · HTML · CSS
@@ -115,37 +130,22 @@ FOUNDATIONS   C++ · algorithms · data structures · SQL · file systems
 DELIVERY      Docker · GitHub Actions · Jupyter · Colab · Firebase
 ```
 
-## `03` / OPEN-SOURCE TRANSMISSION
+## `04` / CONTRIBUTING IN PUBLIC
 
-```text
-STATUS        ENTERING THE ECOSYSTEM
-MISSION       Make one focused, useful contribution with a clear diff.
-FIRST TARGET  Documentation, tests, reproducible bug reports, or a small fix.
-PROTOCOL      Read the guide → reproduce → change less → test → explain → listen.
-```
+I’m building an open-source track around real practice: read the contribution guide, reproduce the issue, make the smallest useful change, test it, and explain the pull request clearly.
 
-I’m starting open source deliberately. I want to learn the conventions before trying to make a large change: how maintainers communicate, how issues become patches, how tests protect a project, and how to respond well when review changes my approach.
+<a href="https://github.com/nanda-81"><img src="https://img.shields.io/badge/OPEN_SOURCE-READY_TO_CONTRIBUTE-5eead4?style=flat-square&labelColor=0b1220" alt="Ready to contribute to open source" /></a>
+<a href="https://github.com/nanda-81?tab=repositories"><img src="https://img.shields.io/badge/REPOSITORIES-EXPLORE-7dd3fc?style=flat-square&labelColor=0b1220" alt="Explore repositories" /></a>
 
-## `04` / FIELD NOTES
-
-> **001** · A project becomes easier to trust when another person can run it.  
-> **002** · AI features need boundaries, not just API calls.  
-> **003** · A good pull request reduces the maintainer’s thinking cost.
-
-## `05` / CONTACT TERMINAL
-
-```text
-nanda-81@build-system:~$ echo "open to SDE opportunities and thoughtful collaboration"
-open to SDE opportunities and thoughtful collaboration
-
-nanda-81@build-system:~$ ./connect
-→ linkedin  https://www.linkedin.com/in/nanda-k-1b736a270/
-→ resume    https://drive.google.com/file/d/1NOhUnDU6nXKKKYi1tIuC5PIz3EicXFl5/view
-→ email     nellutlanandakishore@gmail.com
-```
+## `05` / CONNECT
 
 <div align="center">
 
-_Ship small. Explain clearly. Contribute carefully._
+<a href="mailto:nellutlanandakishore@gmail.com"><img src="https://img.shields.io/badge/MAIL-nellutlanandakishore%40gmail.com-c084fc?style=for-the-badge&labelColor=0b1220" alt="Email Nanda" /></a>
+<a href="https://www.linkedin.com/in/nanda-k-1b736a270/"><img src="https://img.shields.io/badge/LINKEDIN-NANDA_KISHORE-7dd3fc?style=for-the-badge&labelColor=0b1220" alt="Nanda on LinkedIn" /></a>
+
+<br />
+
+<sub>Selected work above · public evidence over inflated claims · updated as the work evolves</sub>
 
 </div>
