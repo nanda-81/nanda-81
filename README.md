@@ -7,7 +7,6 @@
 I build useful software end to end—from the interface people touch to the APIs, data flows, and models underneath. I’m currently sharpening my engineering fundamentals and learning to contribute thoughtfully to open source.
 
 <a href="https://www.linkedin.com/in/nanda-k-1b736a270/">LinkedIn</a> ·
-<a href="https://drive.google.com/file/d/1NOhUnDU6nXKKKYi1tIuC5PIz3EicXFl5/view">Resume</a> ·
 <a href="mailto:nellutlanandakishore@gmail.com">Email</a>
 
 </div>
