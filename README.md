@@ -27,7 +27,7 @@ I build useful software end to end—from the interface people touch to the APIs
 <!-- PROFILE:GENERATED:START -->
 ## Live profile signal
 
-**—** public repositories · **—** stars · **—** forks
+**13** public repositories · **3** stars · **0** forks
 
 **Now building:** Building practical full-stack products and learning how to contribute well to open source.
 **Now learning:** Make a first focused documentation or bug-fix contribution with tests and a clear pull request.
