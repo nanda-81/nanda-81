@@ -1,0 +1,10 @@
+{
+  "name": "nanda-github-profile",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test scripts/update-profile.test.mjs",
+    "update": "node scripts/update-profile.mjs",
+    "update:check": "node scripts/update-profile.mjs --check"
+  }
+}

@@ -1,0 +1,14 @@
+[
+  {"name":"JobSearchingAgent","url":"https://github.com/nanda-81/JobSearchingAgent","isFork":false,"language":"Python","role":"featured"},
+  {"name":"MindCare-ChatBot","url":"https://github.com/nanda-81/MindCare-ChatBot","isFork":false,"language":"HTML","role":"featured"},
+  {"name":"CALAMITI","url":"https://github.com/nanda-81/CALAMITI","isFork":false,"language":"Jupyter Notebook","role":"featured"},
+  {"name":"Huffman-Coding","url":"https://github.com/nanda-81/Huffman-Coding","isFork":false,"language":"C++","role":"featured"},
+  {"name":"Farm-AI","url":"https://github.com/nanda-81/Farm-AI","isFork":false,"language":"JavaScript","role":"featured"},
+  {"name":"Quiz-Game","url":"https://github.com/nanda-81/Quiz-Game","isFork":false,"language":"Kotlin","role":"supporting"},
+  {"name":"Shopping-List","url":"https://github.com/nanda-81/Shopping-List","isFork":false,"language":"","role":"supporting"},
+  {"name":"Design","url":"https://github.com/nanda-81/Design","isFork":false,"language":"","role":"archive"},
+  {"name":"BaseApp-Jetpack-Compose-Android-Kotlin","url":"https://github.com/nanda-81/BaseApp-Jetpack-Compose-Android-Kotlin","isFork":true,"language":"","role":"archive"},
+  {"name":"LeetCode-Questions-CompanyWise","url":"https://github.com/nanda-81/LeetCode-Questions-CompanyWise","isFork":true,"language":"","role":"archive"},
+  {"name":"GDSC_Project","url":"https://github.com/nanda-81/GDSC_Project","isFork":true,"language":"","role":"archive"},
+  {"name":"Cotiviti_Assessment","url":"https://github.com/nanda-81/Cotiviti_Assessment","isFork":false,"language":"Python","role":"excluded"}
+]
