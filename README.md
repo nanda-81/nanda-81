@@ -1,28 +1,31 @@
 <div align="center">
 
-# Nanda Kishore
+<img src="./assets/boot-sequence.svg" alt="Nanda Kishore build system banner" width="100%" />
 
-### Software engineer in progress · Full-stack systems · Practical AI
+<br />
 
-I build useful software end to end—from the interface people touch to the APIs, data flows, and models underneath. I’m currently sharpening my engineering fundamentals and learning to contribute thoughtfully to open source.
+<a href="https://github.com/nanda-81/JobSearchingAgent"><img src="https://img.shields.io/badge/BUILDING-FULL--STACK-5eead4?style=for-the-badge&labelColor=070b16" alt="Building full-stack" /></a>
+<a href="https://github.com/nanda-81/CALAMITI"><img src="https://img.shields.io/badge/EXPLORING-APPLIED_AI-c084fc?style=for-the-badge&labelColor=070b16" alt="Exploring applied AI" /></a>
+<a href="https://github.com/nanda-81"><img src="https://img.shields.io/badge/OPEN_SOURCE-LEARNING-7dd3fc?style=for-the-badge&labelColor=070b16" alt="Open source learning" /></a>
 
-<a href="https://www.linkedin.com/in/nanda-k-1b736a270/">LinkedIn</a> ·
-<a href="https://drive.google.com/file/d/1NOhUnDU6nXKKKYi1tIuC5PIz3EicXFl5/view">Resume</a> ·
-<a href="mailto:nellutlanandakishore@gmail.com">Email</a>
+### Nanda Kishore · software engineer in progress
+
+I build useful software end to end: interfaces, APIs, data flows, and experiments that turn a problem into something people can try. I’m looking for SDE opportunities and beginner-friendly open-source collaboration.
+
+<a href="https://drive.google.com/file/d/1NOhUnDU6nXKKKYi1tIuC5PIz3EicXFl5/view">RESUME</a> ·
+<a href="https://www.linkedin.com/in/nanda-k-1b736a270/">LINKEDIN</a> ·
+<a href="mailto:nellutlanandakishore@gmail.com">EMAIL</a> ·
+<a href="https://github.com/nanda-81?tab=repositories">ALL REPOSITORIES</a>
 
 </div>
 
-## The short version
-
-| I enjoy | I am practicing | I am looking for |
-| --- | --- | --- |
-| Turning messy problems into usable products | Clear code, testing, and system thinking | SDE opportunities and beginner-friendly open-source collaboration |
-
-## Current signal
-
-> **Build → explain → contribute → improve.**
->
-> My profile is a living record of that loop: projects I can explain, engineering decisions I can defend, and contributions I can learn from.
+<table>
+<tr>
+<td width="33%"><b>⚡ CURRENTLY BUILDING</b><br/><br/>Product-shaped full-stack projects with APIs, dashboards, and clearer documentation.</td>
+<td width="33%"><b>🧠 CURRENTLY LEARNING</b><br/><br/>Testing, system thinking, Git workflows, and how to make a useful first open-source contribution.</td>
+<td width="33%"><b>🛰️ CURRENTLY SEEKING</b><br/><br/>SDE opportunities, thoughtful feedback, and beginner-friendly repositories to contribute to.</td>
+</tr>
+</table>
 
 <!-- PROFILE:GENERATED:START -->
 ## Live profile signal
@@ -35,65 +38,114 @@ I build useful software end to end—from the interface people touch to the APIs
 <sub>Public GitHub snapshot refreshed 2026-07-14. Activity metrics are evidence, not the identity.</sub>
 <!-- PROFILE:GENERATED:END -->
 
-## Featured builds
+## `01` / FEATURED BUILDS
 
-### 01 · [PJSAP — Job Search Automation Platform](https://github.com/nanda-81/JobSearchingAgent)
+<table>
+<tr>
+<td width="50%" valign="top">
 
-**Full-stack / Python / FastAPI / React / TypeScript / Docker**
+### ◒ PJSAP
+**Job Search Automation Platform**
 
-A job-searching platform that brings together crawling, matching, and a dashboard experience. The engineering signal here is product flow: collecting information, shaping it into a useful model, and presenting a decision-friendly interface.
+**Problem** · Job discovery is fragmented and noisy.  
+**Build** · Crawling, matching, APIs, and a dashboard flow.  
+**Signal** · Full-stack product thinking and information retrieval.
 
-### 02 · [MindCare Chatbot](https://github.com/nanda-81/MindCare-ChatBot)
+`Python` `FastAPI` `React` `TypeScript` `Docker`
 
-**AI product / React / Node.js / Dialogflow / Gemini**
+<a href="https://github.com/nanda-81/JobSearchingAgent">VIEW REPOSITORY →</a>
 
-An experiment in building a conversational experience around emotional well-being. The important engineering questions are interaction design, API boundaries, responsible messaging, and how to make AI useful without presenting it as a substitute for professional care.
+</td>
+<td width="50%" valign="top">
 
-### 03 · [CALAMITI](https://github.com/nanda-81/CALAMITI)
+### ◉ MINDCARE
+**Conversational AI experiment**
 
-**Deep learning / Python / PyTorch / MRI harmonization / Colab**
+**Problem** · Make supportive interactions feel more human and accessible.  
+**Build** · React interface, Node services, Dialogflow, and Gemini integration.  
+**Signal** · AI product boundaries and responsible UX thinking.
 
-An applied deep-learning project exploring image harmonization across MRI data. It demonstrates interest in reproducible experimentation, visual evaluation, and the relationship between model output and real-world data quality.
+`React` `Node.js` `Dialogflow` `Gemini`
 
-### 04 · [Huffman-Coding](https://github.com/nanda-81/Huffman-Coding)
+<a href="https://github.com/nanda-81/MindCare-ChatBot">VIEW REPOSITORY →</a>
 
-**C++ / algorithms / compression / file I/O**
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
 
-An implementation of compression and decompression using variable-length Huffman codes. A compact project with a clear algorithmic story: frequency analysis, tree construction, binary encoding, and recovery of the original file.
+### ◌ CALAMITI
+**MRI image harmonization research build**
 
-### 05 · [Farm-AI](https://github.com/nanda-81/Farm-AI)
+An applied deep-learning exploration of image harmonization, reproducible notebooks, visual outputs, and the relationship between model results and data quality.
 
-**Full-stack / ML / Flask / React / Firebase / multilingual UX**
+`Python` `PyTorch` `Jupyter` `Colab`
 
-An agricultural management concept combining crop recommendation, yield prediction, crop information, and Hindi/English access. It reflects my interest in applying software and ML to practical, domain-specific problems.
+<a href="https://github.com/nanda-81/CALAMITI">VIEW REPOSITORY →</a>
 
-## Engineering toolkit
+</td>
+<td width="50%" valign="top">
 
-**Product:** React, TypeScript, JavaScript, HTML, CSS  
-**Backend:** Python, FastAPI, Flask, Node.js, REST APIs  
-**AI/ML:** PyTorch, TensorFlow, scikit-learn, NumPy, Pandas, Dialogflow, Gemini APIs  
-**Foundations:** C++, algorithms, data structures, file systems, SQL, Git  
-**Delivery:** Docker, GitHub Actions, Jupyter, Google Colab, Firebase
+### ⌘ HUFFMAN-CODING
+**Compression from first principles**
 
-## Open-source runway
+Frequency analysis → tree construction → binary encoding → decompression. A compact algorithms project with a clear input/output story.
 
-I’m starting deliberately: learn the conventions before trying to make a large change.
+`C++` `Algorithms` `File I/O`
 
-- Read the repository’s contribution guide before opening an issue or pull request.
-- Start with documentation, reproducible bug reports, tests, and small fixes.
-- Keep pull requests focused, explain the verification, and respond respectfully to review.
-- Track what I learned from each contribution instead of collecting activity for its own sake.
+<a href="https://github.com/nanda-81/Huffman-Coding">VIEW REPOSITORY →</a>
 
-**Current goal:** make a first focused contribution with a clear problem statement, a small diff, and explicit verification steps.
+</td>
+</tr>
+</table>
 
-If you maintain a beginner-friendly project and have a well-scoped issue involving documentation, tests, or a small bug fix, I’d be glad to learn through it.
+### `05` / FARM-AI
 
-## A little more context
+An ML-backed agricultural management concept exploring crop recommendation, yield prediction, crop information, and Hindi/English access.
 
-I’m not presenting a finished “expert” identity. I’m presenting the work, the reasoning behind it, and the habits I’m building to become a dependable engineer and contributor.
+`React` `Flask` `Firebase` `TensorFlow` `scikit-learn` · <a href="https://github.com/nanda-81/Farm-AI">VIEW REPOSITORY →</a>
+
+## `02` / ENGINEERING LOADOUT
+
+```text
+PRODUCT       React · TypeScript · JavaScript · HTML · CSS
+BACKEND       Python · FastAPI · Flask · Node.js · REST APIs
+AI / ML       PyTorch · TensorFlow · scikit-learn · NumPy · Pandas
+FOUNDATIONS   C++ · algorithms · data structures · SQL · file systems
+DELIVERY      Docker · GitHub Actions · Jupyter · Colab · Firebase
+```
+
+## `03` / OPEN-SOURCE TRANSMISSION
+
+```text
+STATUS        ENTERING THE ECOSYSTEM
+MISSION       Make one focused, useful contribution with a clear diff.
+FIRST TARGET  Documentation, tests, reproducible bug reports, or a small fix.
+PROTOCOL      Read the guide → reproduce → change less → test → explain → listen.
+```
+
+I’m starting open source deliberately. I want to learn the conventions before trying to make a large change: how maintainers communicate, how issues become patches, how tests protect a project, and how to respond well when review changes my approach.
+
+## `04` / FIELD NOTES
+
+> **001** · A project becomes easier to trust when another person can run it.  
+> **002** · AI features need boundaries, not just API calls.  
+> **003** · A good pull request reduces the maintainer’s thinking cost.
+
+## `05` / CONTACT TERMINAL
+
+```text
+nanda-81@build-system:~$ echo "open to SDE opportunities and thoughtful collaboration"
+open to SDE opportunities and thoughtful collaboration
+
+nanda-81@build-system:~$ ./connect
+→ linkedin  https://www.linkedin.com/in/nanda-k-1b736a270/
+→ resume    https://drive.google.com/file/d/1NOhUnDU6nXKKKYi1tIuC5PIz3EicXFl5/view
+→ email     nellutlanandakishore@gmail.com
+```
 
 <div align="center">
 
-_Thanks for visiting. Good software is built in public one careful improvement at a time._
+_Ship small. Explain clearly. Contribute carefully._
 
 </div>

@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" role="img" aria-labelledby="title desc">
+  <title id="title">Nanda Kishore build system</title>
+  <desc id="desc">A terminal-inspired animated profile banner showing full-stack systems, applied AI, and open-source learning.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#070b16"/><stop offset="0.55" stop-color="#10152b"/><stop offset="1" stop-color="#180c2e"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="0" x2="1"><stop stop-color="#5eead4"/><stop offset="0.5" stop-color="#7dd3fc"/><stop offset="1" stop-color="#c084fc"/></linearGradient>
+    <filter id="soft"><feGaussianBlur stdDeviation="7"/></filter>
+    <style>
+      .mono{font-family:ui-monospace,SFMono-Regular,Consolas,monospace}
+      .cursor{animation:blink 1s steps(2,end) infinite}
+      .pulse{animation:pulse 3.2s ease-in-out infinite}
+      .scan{animation:scan 5s linear infinite}
+      @keyframes blink{50%{opacity:0}}
+      @keyframes pulse{50%{opacity:.55;transform:scale(1.06)}}
+      @keyframes scan{from{transform:translateX(-1100px)}to{transform:translateX(1200px)}}
+    </style>
+  </defs>
+  <rect width="1200" height="320" rx="24" fill="url(#bg)"/>
+  <circle class="pulse" cx="1000" cy="60" r="90" fill="#7c3aed" opacity=".18" filter="url(#soft)"/>
+  <circle class="pulse" cx="1080" cy="245" r="120" fill="#06b6d4" opacity=".12" filter="url(#soft)"/>
+  <path class="scan" d="M0 260h330" stroke="url(#glow)" stroke-width="3" opacity=".7"/>
+  <rect x="34" y="28" width="1132" height="264" rx="16" fill="none" stroke="#334155"/>
+  <circle cx="64" cy="57" r="6" fill="#fb7185"/><circle cx="84" cy="57" r="6" fill="#facc15"/><circle cx="104" cy="57" r="6" fill="#4ade80"/>
+  <text x="52" y="112" class="mono" font-size="18" fill="#5eead4">nanda-81@build-system:~$</text>
+  <text x="52" y="162" class="mono" font-size="38" font-weight="700" fill="#f8fafc">INITIALIZING NANDA-81</text>
+  <text x="54" y="201" class="mono" font-size="18" fill="#cbd5e1">full-stack systems  ·  applied AI  ·  open-source in progress</text>
+  <text x="54" y="250" class="mono" font-size="17" fill="#a78bfa">[online]</text>
+  <text x="142" y="250" class="mono" font-size="17" fill="#7dd3fc">build → explain → contribute → improve</text>
+  <text x="775" y="250" class="mono" font-size="17" fill="#5eead4">█</text><text x="790" y="250" class="mono cursor" font-size="17" fill="#5eead4">_</text>
+</svg>
