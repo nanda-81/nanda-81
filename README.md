@@ -103,8 +103,17 @@ Frequency analysis → tree construction → binary encoding → decompression. 
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=nanda-81&show_icons=true&hide_border=true&include_all_commits=true&theme=tokyonight&bg_color=0b1220&title_color=5eead4&icon_color=c084fc&text_color=cbd5e1" alt="Nanda's GitHub statistics" height="170" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=nanda-81&layout=compact&hide_border=true&theme=tokyonight&bg_color=0b1220&title_color=7dd3fc&text_color=cbd5e1" alt="Nanda's most used languages" height="170" />
+<img
+  src="https://github-readme-stats.vercel.app/api?username=nanda-81&show_icons=true&theme=tokyonight&hide_border=true&cache_seconds=86400"
+  alt="Nanda's GitHub statistics"
+  height="170"
+/>
+
+<img
+  src="https://github-readme-stats.vercel.app/api/top-langs/?username=nanda-81&layout=compact&theme=tokyonight&hide_border=true&cache_seconds=86400"
+  alt="Nanda's most used languages"
+  height="170"
+/>
 
 <br />
 
@@ -112,12 +121,21 @@ Frequency analysis → tree construction → binary encoding → decompression. 
 
 <br />
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/nanda-81/nanda-81/output/github-contribution-grid-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/nanda-81/nanda-81/output/github-contribution-grid-snake.svg" />
-  <img src="https://raw.githubusercontent.com/nanda-81/nanda-81/output/github-contribution-grid-snake.svg" alt="Animated contribution graph" width="100%" />
-</picture>
+<source
+  media="(prefers-color-scheme: dark)"
+  srcset="https://raw.githubusercontent.com/nanda-81/nanda-81/main/output/github-contribution-grid-snake-dark.svg"
+/>
 
+<source
+  media="(prefers-color-scheme: light)"
+  srcset="https://raw.githubusercontent.com/nanda-81/nanda-81/main/output/github-contribution-grid-snake.svg"
+/>
+
+<img
+  src="https://raw.githubusercontent.com/nanda-81/nanda-81/main/output/github-contribution-grid-snake.svg"
+  alt="Animated contribution graph"
+  width="100%"
+/>
 </div>
 
 ## `03` / ENGINEERING STACK
