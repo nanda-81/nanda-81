@@ -31,7 +31,7 @@ I build full-stack products and practical AI systems—turning a problem into a 
 
 **Focus:** Building practical full-stack products and learning how to contribute well to open source.
 
-<sub>Public GitHub snapshot refreshed 2026-07-14. Activity metrics are evidence, not the identity.</sub>
+<sub>Public GitHub snapshot refreshed 2026-07-20. Activity metrics are evidence, not the identity.</sub>
 <!-- PROFILE:GENERATED:END -->
 
 ## `01` / SELECTED WORK
