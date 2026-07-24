@@ -12,7 +12,7 @@ The hero will use the positioning: **Student full-stack developer building pract
 
 ## Content structure
 
-1. **Hero and contact actions**: Name, positioning, short value statement, resume, LinkedIn, and email.
+1. **Hero and contact actions**: A polished, terminal-inspired local SVG banner; name, positioning, short value statement, resume, LinkedIn, and email. The dark navy, teal, sky, and violet palette carries through the page for a distinctive but professional visual identity.
 2. **Selected work**: Four existing repositories. Each card names the project, problem, implementation focus, and stack. Claims stay grounded in repository evidence.
 3. **Technical focus**: Compact grouping of product, backend, AI/data, foundations, and delivery skills.
 4. **Growth and collaboration**: A short statement about current learning, open-source contribution practice, and opportunities sought.
@@ -21,7 +21,7 @@ The hero will use the positioning: **Student full-stack developer building pract
 ## Reliability and maintenance
 
 - Remove externally hosted statistics, streak, and contribution-snake images. They are visual dependencies outside the repository and may fail, rate-limit, or render inconsistently.
-- Keep the locally hosted banner and project icons, with meaningful alternative text.
+- Preserve the visually rich local banner, project icons, structured project-card layout, color palette, and clear section rhythm. All visual assets have meaningful alternative text and are stored in the repository for reliable rendering.
 - Keep the generated profile-signal region, but make the updater deterministic when GitHub is unavailable: an offline check must not demand a refresh solely because it generated a new timestamp.
 - Validate profile-data shape, required strings, link schemes, project uniqueness, exclusions, and generated-marker placement.
 - The update workflow continues to use the repository-scoped GitHub token and must never place secrets in tracked files.
@@ -35,7 +35,7 @@ Tests will cover profile-data validation, generated-region replacement, renderin
 ## Acceptance criteria
 
 - README positions Nanda as a student, hybrid full-stack/applied-AI developer.
-- README uses only local visual assets plus normal hyperlink/badge endpoints; no third-party GitHub metric cards, streak cards, or snake animation.
+- README has a polished, visually distinctive local banner, icons, project cards, and consistent palette while using no third-party GitHub metric cards, streak cards, or snake animation.
 - `npm test` passes.
 - `npm run update:check` passes without network access when the committed generated section is valid.
 - The updater changes only the generated README region when a live GitHub refresh succeeds.
