@@ -1,6 +1,6 @@
 import test from "node:test";
 import assert from "node:assert/strict";
-import { END, START, loadProfileData, renderGeneratedSection, replaceGeneratedSection } from "./update-profile.mjs";
+import { END, START, loadProfileData, renderGeneratedSection, replaceGeneratedSection, validateProfileData, validateReadme } from "./update-profile.mjs";
 import fs from "node:fs/promises";
 import os from "node:os";
 import path from "node:path";
@@ -37,4 +37,35 @@ test("renders a maintainer-friendly live signal", () => {
   assert.match(output, /full-stack products/);
   assert.match(output, new RegExp(START));
   assert.match(output, new RegExp(END));
+});
+
+test("rejects incomplete profile links and duplicate featured repositories", () => {
+  assert.throws(() => validateProfileData({
+    username: "nanda-81",
+    currentFocus: "x",
+    featuredRepositories: ["a", "a", "b", "c"],
+    excludedRepositories: [],
+    links: { linkedin: "linkedin.com/nanda", resume: "https://example.com", email: "mailto:test@example.com" }
+  }), /unique/);
+  assert.throws(() => validateProfileData({
+    username: "nanda-81",
+    currentFocus: "x",
+    featuredRepositories: ["a", "b", "c", "d"],
+    excludedRepositories: [],
+    links: { linkedin: "linkedin.com/nanda", resume: "https://example.com", email: "mailto:test@example.com" }
+  }), /https/);
+});
+
+test("accepts a README with local visual assets and no dashboard widgets", () => {
+  assert.doesNotThrow(() => validateReadme("<img src=\"./assets/banner.svg\" />"));
+  assert.throws(() => validateReadme("https://github-readme-stats.vercel.app/api"), /dashboard/);
+});
+
+test("keeps the committed README visually self-contained", async () => {
+  const readme = await fs.readFile(new URL("../README.md", import.meta.url), "utf8");
+  validateReadme(readme);
+  for (const asset of ["boot-sequence.svg", "icon-pjsap.svg", "icon-mindcare.svg", "icon-calamiti.svg", "icon-huffman.svg"]) {
+    assert.match(readme, new RegExp(`\\./assets/${asset}`));
+  }
+  assert.match(readme, /student full-stack developer/);
 });

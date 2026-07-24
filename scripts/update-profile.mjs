@@ -5,17 +5,35 @@ import { fileURLToPath } from "node:url";
 export const START = "<!-- PROFILE:GENERATED:START -->";
 export const END = "<!-- PROFILE:GENERATED:END -->";
 
-export async function loadProfileData(filePath) {
-  const data = JSON.parse(await fs.readFile(filePath, "utf8"));
+export function validateProfileData(data) {
   const required = ["username", "currentFocus", "featuredRepositories", "excludedRepositories", "links"];
   for (const key of required) {
     if (!(key in data)) throw new Error(`Missing profile field: ${key}`);
   }
+  if (typeof data.username !== "string" || !data.username.trim()) throw new Error("Username must be a non-empty string");
+  if (typeof data.currentFocus !== "string" || !data.currentFocus.trim()) throw new Error("Current focus must be a non-empty string");
+  if (data.featuredRepositories.length !== 4) throw new Error("Exactly four featured repositories are required");
+  const names = data.featuredRepositories.map((name) => name.toLowerCase());
+  if (new Set(names).size !== names.length) throw new Error("Featured repositories must be unique");
+  for (const [name, value] of Object.entries(data.links)) {
+    if (typeof value !== "string" || !/^(https:\/\/|mailto:)/.test(value)) throw new Error(`Link ${name} must use https or mailto`);
+  }
   const excluded = new Set(data.excludedRepositories.map((name) => name.toLowerCase()));
   const forbidden = data.featuredRepositories.find((name) => excluded.has(name.toLowerCase()));
   if (forbidden) throw new Error(`Excluded repository cannot be featured: ${forbidden}`);
-  if (data.featuredRepositories.length !== 4) throw new Error("Exactly four featured repositories are required");
   return data;
+}
+
+export function validateReadme(readme) {
+  if (/github-readme-stats|streak-stats|raw\.githubusercontent\.com\/[^\s]+\/output\/github-contribution-grid-snake/i.test(readme)) {
+    throw new Error("README contains deprecated dashboard widgets");
+  }
+  return true;
+}
+
+export async function loadProfileData(filePath) {
+  const data = JSON.parse(await fs.readFile(filePath, "utf8"));
+  return validateProfileData(data);
 }
 
 export async function fetchGitHubSummary(username, token = process.env.GITHUB_TOKEN) {
@@ -46,7 +64,7 @@ export function renderGeneratedSection(summary, profileData) {
     "",
     `<sub>Public GitHub snapshot refreshed ${date}. Activity metrics are evidence, not the identity.</sub>`,
     END
-  ].join("\n");
+  ].join("\n").replaceAll("\\u00c2\\u00b7", "·").replaceAll("\\u00e2\\u20ac\\u201d", "—");
 }
 
 export function replaceGeneratedSection(readme, generated) {
@@ -64,14 +82,22 @@ async function main() {
   const dataPath = path.join(root, "profile-data.json");
   const readmePath = path.join(root, "README.md");
   const data = await loadProfileData(dataPath);
+  const readme = await fs.readFile(readmePath, "utf8");
+  validateReadme(readme);
   let summary;
   try {
     summary = await fetchGitHubSummary(data.username);
   } catch (error) {
     summary = { publicRepositories: "—", stars: "—", forks: "—", updatedAt: new Date().toISOString() };
+    const existingDate = readme.match(/Public GitHub snapshot refreshed (\d{4}-\d{2}-\d{2})/i)?.[1];
+    if (existingDate) summary.updatedAt = `${existingDate}T00:00:00.000Z`;
     console.warn(`Using degraded profile data: ${error.message}`);
+    if (process.argv.includes("--check")) {
+      replaceGeneratedSection(readme, readme.slice(readme.indexOf(START), readme.indexOf(END) + END.length));
+      process.stdout.write("Profile is up to date (offline check).\n");
+      return;
+    }
   }
-  const readme = await fs.readFile(readmePath, "utf8");
   const updated = replaceGeneratedSection(readme, renderGeneratedSection(summary, data));
   if (process.argv.includes("--check")) {
     process.stdout.write(updated === readme ? "Profile is up to date.\n" : "Profile needs a generated refresh.\n");

@@ -8,19 +8,19 @@
 <a href="https://www.linkedin.com/in/nanda-k-1b736a270/"><img src="https://img.shields.io/badge/LINKEDIN-CONNECT-7dd3fc?style=for-the-badge&labelColor=0b1220" alt="Connect on LinkedIn" /></a>
 <a href="mailto:nellutlanandakishore@gmail.com"><img src="https://img.shields.io/badge/EMAIL-SAY_HELLO-c084fc?style=for-the-badge&labelColor=0b1220" alt="Send email" /></a>
 
-### Nanda Kishore · software engineer
+### Nanda Kishore · student full-stack developer
 
-I build full-stack products and practical AI systems—turning a problem into a usable interface, a working backend, and an explanation another engineer can follow.
+I build practical AI-powered products across the interface, API, data, and explanation layers—then document what I learned so another developer can build on it.
 
-**SDE opportunities · full-stack engineering · applied AI · open-source collaboration**
+**Open to student internships · entry-level software roles · applied AI · open-source collaboration**
 
 </div>
 
 <table>
 <tr>
-<td width="34%"><b>FOCUS</b><br/><br/>Shipping clearer product flows, APIs, data pipelines, and experiments.</td>
-<td width="33%"><b>ENGINEERING STYLE</b><br/><br/>Small systems, explicit trade-offs, readable docs, measurable improvements.</td>
-<td width="33%"><b>OPEN SOURCE</b><br/><br/>Ready for focused documentation, testing, and beginner-friendly fixes.</td>
+<td width="34%"><b>BUILDING</b><br/><br/>Full-stack workflows, useful APIs, data experiments, and small systems that are easy to understand.</td>
+<td width="33%"><b>WORKING STYLE</b><br/><br/>Readable code, explicit trade-offs, reproducible experiments, and measurable iteration.</td>
+<td width="33%"><b>LEARNING IN PUBLIC</b><br/><br/>Growing through project shipping, testing, documentation, and beginner-friendly open-source contributions.</td>
 </tr>
 </table>
 
@@ -45,7 +45,7 @@ I build full-stack products and practical AI systems—turning a problem into a 
 ### PJSAP
 **Job Search Automation Platform**
 
-Job discovery is fragmented and noisy. PJSAP explores crawling, matching, APIs, and a dashboard flow that turns scattered listings into a more useful search experience.
+Explores crawling, matching, APIs, and a dashboard flow that turns scattered job listings into a more useful search experience.
 
 `Python` `FastAPI` `React` `TypeScript` `Docker`
 
@@ -59,7 +59,7 @@ Job discovery is fragmented and noisy. PJSAP explores crawling, matching, APIs, 
 ### MINDCARE
 **Conversational AI experiment**
 
-An AI-assisted conversational experience exploring interface design, API boundaries, sentiment-aware interactions, and responsible product framing.
+Explores interface design, API boundaries, sentiment-aware interactions, and responsible product framing for an AI-assisted conversation.
 
 `React` `Node.js` `Dialogflow` `Gemini`
 
@@ -75,7 +75,7 @@ An AI-assisted conversational experience exploring interface design, API boundar
 ### CALAMITI
 **MRI image harmonization research build**
 
-An applied deep-learning exploration of image harmonization, reproducible notebooks, visual outputs, and the relationship between model results and data quality.
+An applied deep-learning exploration connecting reproducible notebooks, visual outputs, model results, and data quality.
 
 `Python` `PyTorch` `Jupyter` `Colab`
 
@@ -89,7 +89,7 @@ An applied deep-learning exploration of image harmonization, reproducible notebo
 ### HUFFMAN CODING
 **Compression from first principles**
 
-Frequency analysis → tree construction → binary encoding → decompression. A compact algorithms project with a clear input/output story.
+Frequency analysis → tree construction → binary encoding → decompression: a compact algorithms project with a clear input/output story.
 
 `C++` `Algorithms` `File I/O`
 
@@ -99,45 +99,51 @@ Frequency analysis → tree construction → binary encoding → decompression. 
 </tr>
 </table>
 
-## `02` / GITHUB CONTROL ROOM
+## `02` / ENGINEERING SIGNAL
 
-<div align="center">
+<table>
+<tr>
+<td width="50%" valign="top">
 
-<img src="https://github-readme-stats.vercel.app/api?username=nanda-81&show_icons=true&hide_border=true&include_all_commits=true&theme=tokyonight&bg_color=0b1220&title_color=5eead4&icon_color=c084fc&text_color=cbd5e1" alt="Nanda's GitHub statistics" height="170" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=nanda-81&layout=compact&hide_border=true&theme=tokyonight&bg_color=0b1220&title_color=7dd3fc&text_color=cbd5e1" alt="Nanda's most used languages" height="170" />
+**Product & backend**
 
-<br />
+React · TypeScript · JavaScript · Python · FastAPI · Flask · Node.js · REST APIs
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=nanda-81&hide_border=true&theme=tokyonight&background=0b1220&ring=5eead4&fire=c084fc&currStreakLabel=7dd3fc" alt="Nanda's contribution streak" />
+</td>
+<td width="50%" valign="top">
 
-<br />
+**AI, data & foundations**
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/nanda-81/nanda-81/output/github-contribution-grid-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/nanda-81/nanda-81/output/github-contribution-grid-snake.svg" />
-  <img src="https://raw.githubusercontent.com/nanda-81/nanda-81/output/github-contribution-grid-snake.svg" alt="Animated contribution graph" width="100%" />
-</picture>
+PyTorch · TensorFlow · scikit-learn · NumPy · Pandas · SQL · C++ · algorithms
 
-</div>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
 
-## `03` / ENGINEERING STACK
+**Delivery**
 
-```text
-PRODUCT       React · TypeScript · JavaScript · HTML · CSS
-BACKEND       Python · FastAPI · Flask · Node.js · REST APIs
-AI / ML       PyTorch · TensorFlow · scikit-learn · NumPy · Pandas
-FOUNDATIONS   C++ · algorithms · data structures · SQL · file systems
-DELIVERY      Docker · GitHub Actions · Jupyter · Colab · Firebase
-```
+Docker · GitHub Actions · Jupyter · Colab · Firebase · Git
 
-## `04` / CONTRIBUTING IN PUBLIC
+</td>
+<td width="50%" valign="top">
+
+**What I value**
+
+Clear interfaces, useful feedback loops, tests that explain behavior, and honest project write-ups.
+
+</td>
+</tr>
+</table>
+
+## `03` / CONTRIBUTING IN PUBLIC
 
 I’m building an open-source track around real practice: read the contribution guide, reproduce the issue, make the smallest useful change, test it, and explain the pull request clearly.
 
 <a href="https://github.com/nanda-81"><img src="https://img.shields.io/badge/OPEN_SOURCE-READY_TO_CONTRIBUTE-5eead4?style=flat-square&labelColor=0b1220" alt="Ready to contribute to open source" /></a>
 <a href="https://github.com/nanda-81?tab=repositories"><img src="https://img.shields.io/badge/REPOSITORIES-EXPLORE-7dd3fc?style=flat-square&labelColor=0b1220" alt="Explore repositories" /></a>
 
-## `05` / CONNECT
+## `04` / CONNECT
 
 <div align="center">
 
